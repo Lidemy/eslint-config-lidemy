@@ -9,13 +9,15 @@
   
     "env": {
       "es2021": true,
-      "node": true
+      "browser": true,
+      "node": true,
+      "jest": true
     },
   
     "plugins": [
       "import",
-      "node",
-      "promise"
+      "jsx-a11y",
+      "react"
     ],
   
     "globals": {
