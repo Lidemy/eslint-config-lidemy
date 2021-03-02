@@ -1,5 +1,1 @@
-const a = 1
-
-module.exports = {
-    a,
-}
+module.exports = require('./eslintrc.json')
