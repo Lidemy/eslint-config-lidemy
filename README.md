@@ -14,10 +14,10 @@
 - eslint-plugin-react: ^7.12.4,
 - eslint-plugin-react-hooks: ^4.2.0
 
-搭配 Eslint: 
+上述套件需搭配 Eslint 版本為: 
 - eslint: ^7.21.0 
 
-上述套件已加入 [`peerDependencies`](./package.json)
+上述套件亦加入 [`peerDependencies`](./package.json)
 
 ## 安裝
 

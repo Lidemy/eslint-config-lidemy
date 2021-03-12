@@ -4,11 +4,11 @@
 
 ## [Base](./base.js)
 
-## [Error](./error.js)
+## [Errors](./errors.js)
 
 ## [ES6](./es6.js)
 
-## [Import](./import.js)
+## [Imports](./imports.js)
 
 ## [Node](./node.js)
 
