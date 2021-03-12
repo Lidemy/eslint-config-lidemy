@@ -10,11 +10,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "claygao",
+  "author": "lidemy",
   "license": "MIT",
-  "devDependencies": {
+  "peerDependencies": {
+    "eslint": "^7.21.0",
     "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.22.0"
-  }
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "devDependencies": {}
 }
