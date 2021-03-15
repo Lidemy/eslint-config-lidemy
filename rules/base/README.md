@@ -60,7 +60,7 @@ console.log(i) // -> 'hi'
 
 ### `accessor-pairs`
 
-對於構造函式，需同時設置 getter/setter，setter 應該有一 getter 與其做搭配，他們需要同時存在
+對於物件中的成員，當有 setter 時，需同時設置 getter。setter 應該有一 getter 與其做搭配，他們需要同時存在。
 
 
 **不好的範例 [X]：**
@@ -93,7 +93,7 @@ const obj = {
 
 ### `array-bracket-spacing`
 
-表達陣列時，禁止在 `[]` 內添加空格
+表達陣列時，禁止在 `[]` 內添加空格。
 
 
 **不好的範例 [X]：**
@@ -169,7 +169,7 @@ const newArr = arr.filter(element => {
     } 
 })
 ```
-以 `Array.prototype.map` 來說，此方法會回傳相同長度的陣列，如果沒有正確對於每個元素做處理，則會回傳 `undefined`，這樣做是不好的
+以 `Array.prototype.map` 來說，此方法會回傳相同長度的陣列，如果沒有正確對於每個元素做處理，則會回傳 `undefined`，這樣做是不好的。
 
 而以 `Array.prototype.filter` 來說，符合條件的元素才會被回傳至新產生的陣列之中，在錯誤範例中，對於不符合條件的回傳值沒有特別指定，這樣的做法會導致回傳 `undefined`，同樣不被允許。
 
@@ -179,7 +179,7 @@ const newArr = arr.filter(element => {
 
 ### `arrow-spacing`
 
-表達箭頭函式時，須在符號之間以空格區隔，以增加可讀性
+表達箭頭函式時，須在符號之間以空格區隔，以增加可讀性。
 
 **不好的範例 [X]：**
 ```javascript
@@ -209,7 +209,7 @@ a => a
 
 ### `block-spacing`
 
-花括弧 `{ }` 旁邊需要以空格區隔，增加可讀性
+花括弧 `{ }` 旁邊需要以空格區隔，增加可讀性。
 
 **不好的範例 [X]：**
 ```javascript
@@ -241,7 +241,7 @@ function b() {
 
 ### `comma-spacing`
 
-逗號 `,` 後方需要以空格區隔，並且 `,` 前方不可有空格，增加可讀性
+逗號 `,` 後方需要以空格區隔，並且 `,` 前方不可有空格，增加可讀性。
 
 **不好的範例 [X]：**
 ```javascript
@@ -285,7 +285,7 @@ a, b
 
 ### `computed-property-spacing`
 
-在表示物件屬性的 `[]` 方式中強制添加空格或絕不添加空格，此份標準為不添加空格 (`'never'`)
+在表示物件屬性的 `[]` 方式中強制添加空格或絕不添加空格，此份標準為不添加空格 (`'never'`)：
 
 **不好的範例 [X]：**
 ```javascript
@@ -335,7 +335,7 @@ obj[ a ]
 
 ### `func-call-spacing`
 
-在函式呼叫時，強制或禁止函式名稱與 `()` 的間隔。此份 config 設置為 `'never'`。
+在函式呼叫時，強制或禁止函式名稱與 `()` 的間隔。此份 config 設置為 `'never'`：
 
 **不好的範例 [X]：**
 ```javascript
@@ -420,7 +420,7 @@ function a() {
 
 ### `camelCase`
 
-JavaScript 的慣例命名風格，另一種樣式則是下劃線的 `snake_case` 形式，此份標準則以 camelCase 為主
+JavaScript 的慣例命名風格，另一種樣式則是下劃線的 `snake_case` 形式，此份標準則以 camelCase 為主。
 
 在此份標準中，將此規則參數 `properties` 設為 `never`，表現不檢查屬性的名稱，另外當變數名稱皆為大寫時，使用下劃線命名是允許的，因為這種用途常見於常數變數，例如 `BASE_URL` 
 
@@ -458,7 +458,7 @@ function doSomething() {
 
 ### `comma-dangle`
 
-在陣列的最後一個元素或物件的最後一個屬性後方是否加上逗號 `,`，此份標準預設為不加結尾逗號 (`never`)，反之 `always` 則是必須加上結尾逗號
+在陣列的最後一個元素或物件的最後一個屬性後方是否加上逗號 `,`，此份標準預設為不加結尾逗號 (`never`)，反之 `always` 則是必須加上結尾逗號。
 
 以下範例以不加結尾逗號作為評斷：
 
@@ -546,7 +546,7 @@ const arr = [
 
 ### `constructor-super`
 
-繼承需要使用關鍵字 `super()`，無效的繼承或者在沒有繼承的狀況下使用關鍵字 `super()` 將會報錯
+繼承需要使用關鍵字 `super()`，無效的繼承或者在沒有繼承的狀況下使用關鍵字 `super()` 將會報錯。
 
 下方取自官方範例：
 
@@ -805,9 +805,9 @@ function doSomething() {
 
 ### `generator-star-spacing`
 
-設置 Generators 的 `*` 號空格位置，此份 config 採用的參數為 `'before': true`
+設置 Generators 的 `*` 號空格位置，此份 config 採用的參數為 `'before': true`，下方範例以此評斷：
 
-關於 Generators 的介紹，請參考 [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator)
+> 關於 Generators 的介紹，請參考 [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator)
 
 **不好的範例 [X]：**
 ```javascript
@@ -1619,7 +1619,7 @@ if (true) {;}
 
 ### `space-before-blocks`
 
-強制或禁止 block `{}` 前方的空格
+強制或禁止 block `{}` 前方的空格。
 
 **不好的範例 [X]：**
 ```javascript
@@ -1863,7 +1863,8 @@ async function foo() {
 
 在 ES6 中，Function 有一種呼叫形式是可以於 function name 後方直接加上 template tag 作為參數代入。
 
-此規則強制或禁止 template tag ` `` ` 周圍是否加上空格。此 config 設置參數為 '`never`'
+此規則強制或禁止 template tag ` `` ` 周圍是否加上空格。此 config 設置參數為 '`never`' :
+
 
 **不好的範例 [X]：**
 ```javascript
