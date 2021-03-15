@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-lidemy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An eslint config for MTR",
   "repository": {
     "type": "git",
