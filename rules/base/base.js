@@ -58,7 +58,7 @@ module.exports = {
     'new-parens': 'error',
     'object-curly-newline': ['error', { 'multiline': true, 'consistent': true }],
     'object-curly-spacing': ['error', 'always'],
-    'object-property-newline': ['error', { 'allowMultiplePropertiesPerLine': true }],
+    'object-property-newline': ['error', { 'allowAllPropertiesOnSameLine': false }],
     'one-var': ['error', { 'initialized': 'never' }],
     'operator-linebreak': ['error', 'after', { 'overrides': { '?': 'before', ':': 'before', '|>': 'before' } }],
     'padded-blocks': ['error', { 'blocks': 'never', 'switches': 'never', 'classes': 'never' }],

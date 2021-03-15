@@ -27,9 +27,10 @@ module.exports = {
 
     "plugins": [
         "import",
+        "node",
         "jsx-a11y",
         "react",
-        "node",
+        "react-hooks",
     ],
 
     "globals": {
