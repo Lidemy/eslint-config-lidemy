@@ -33,7 +33,7 @@ npm install  --save-dev eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugi
 
 ```json
     "eslint": "^7.21.0",
-    "eslint-config-lidemy": "file:../eslint-config-lidemy",
+    "eslint-config-lidemy": "^1.0.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.12.4",
