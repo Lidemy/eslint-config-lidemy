@@ -237,7 +237,9 @@ module.exports = {
     'no-void': 'error',
     'no-whitespace-before-property': 'error',
     'no-with': 'error',
-
+    'no-param-reassign': 'off',
+    'no-plusplus': 'off',
+    'consistent-return': 'off',
     // Disallow assignments that can lead to race conditions due to usage of await or yield
     // https://eslint.org/docs/rules/require-atomic-updates
     // note: not enabled because it is very buggy

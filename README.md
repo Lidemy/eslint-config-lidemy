@@ -8,8 +8,6 @@
 ## 此份 config 包含哪些 rules plugins ?
 
 - eslint-plugin-import: ^2.22.1
-- eslint-plugin-node: ^11.1.0
-- eslint-plugin-promise: ^4.2.1,
 - eslint-plugin-jsx-a11y: ^6.4.1,
 - eslint-plugin-react: ^7.12.4,
 - eslint-plugin-react-hooks: ^4.2.0
@@ -28,7 +26,7 @@ npm install eslint-config-lidemy
 因為有使用到上述 plugins，所以需要一併安裝：
 
 ```
-npm install  --save-dev eslint-plugin-import eslint-plugin-node eslint-plugin-promise eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
+npm install  --save-dev eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks
 ```
 
 或者直接將以下套件加入專案中 `pcakage.json` 的 `"devDependencies": { }` 並重新執行 `npm install` :
@@ -37,8 +35,6 @@ npm install  --save-dev eslint-plugin-import eslint-plugin-node eslint-plugin-pr
     "eslint": "^7.21.0",
     "eslint-config-lidemy": "file:../eslint-config-lidemy",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-react-hooks": "^4.2.0"
