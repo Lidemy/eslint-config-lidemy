@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-lidemy",
-  "version": "1.0.5",
+  "name": "@lidemy/eslint-config-lidemy",
+  "version": "1.0.0",
   "description": "An eslint config for MTR",
   "repository": {
     "type": "git",
@@ -15,9 +15,7 @@
   "peerDependencies": {
     "eslint": "^7.21.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-react-hooks": "^4.2.0"
+    "eslint-plugin-jsx-a11y": "^6.4.1"
   },
   "devDependencies": {}
 }

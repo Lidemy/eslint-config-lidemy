@@ -5,9 +5,6 @@ module.exports = {
         './base/es6',
         './base/imports',
         './base/strict',
-        './react/jsx-a11y',
-        './react/react',
-        './react/react-hooks'
     ].map(require.resolve),
     "parserOptions": {
         "ecmaVersion": 2021,
@@ -26,9 +23,7 @@ module.exports = {
 
     "plugins": [
         "import",
-        "jsx-a11y",
-        "react",
-        "react-hooks",
+        "jsx-a11y"
     ],
 
     "globals": {
