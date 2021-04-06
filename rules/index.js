@@ -2,7 +2,6 @@ module.exports = {
     extends: [
         './base/base',
         './base/errors',
-        './base/node',
         './base/es6',
         './base/imports',
         './base/strict',
